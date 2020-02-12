@@ -18,7 +18,7 @@ for line in s:
     thisValue = 0.0
   
   # apply the aggregation function
-  thisValue += float(amount)
+  thisValue += 1
 
 # output the final entry when done
 r.write(thisKey + '\t' + str(thisValue)+'\n')
